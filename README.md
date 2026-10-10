@@ -1,3 +1,9 @@
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Security](https://img.shields.io/badge/SAST-OWASP--Top10-red.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+---
 # 🛡️ Aegis Code
 ### The Next-Generation Security Auditing & Static Code Analysis Engine
 
