@@ -60,5 +60,12 @@ Contributions from security researchers and open-source developers are welcome! 
 
 ## 📄 License
 
-This project is open-source and licensed under the **MIT License** - see the LICENSE file for details.
+This project is open-source and licensed under the **MIT License** - see the LICENSE file for details.---
+
+## ⭐ Support & Show Your Support
+
+If you find **Aegis Code** useful for your projects or security auditing, please consider giving this repository a **Star**! It helps the project grow and enables more developers to discover it.
+
+> 🌟 **Enjoying Aegis Code?** Click the **Star** button at the top right of this page to show your support!
+> 
 
