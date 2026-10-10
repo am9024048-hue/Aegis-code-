@@ -1,1 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Reports and logs
+aegis_report.json
+aegis_report.html
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
