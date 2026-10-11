@@ -28,3 +28,7 @@ Run the scanner directly from your terminal by passing the path of the Python fi
 
 ```bash
 python aegis.py path/to/your_file.py
+Contributing
+Contributions and rule additions are welcome! Feel free to open an issue or submit a pull request.
+⭐ Support
+If you find this project useful, consider giving it a Star!
