@@ -16,7 +16,9 @@ A lightweight, local Static Application Security Testing (SAST) tool built with 
 - **Security Checks:** 
   - Detects potential hardcoded secrets (API keys, passwords).
   - Flags dangerous function usage (`eval`, `exec`).
-  - Warns against insecure module imports (`pickle`, `telnetlib`).## 💻 Usage
+  - Warns against insecure module imports (`pickle`, `telnetlib`).
+ 
+  - ## 💻 Usage
 
 Run the scanner directly from your terminal by passing the path of the Python file you want to check:
 
