@@ -181,5 +181,14 @@ def main():
     reporter.render_report(findings, str(target_file))
 
 if __name__ == "__main__":
+    main() def main():
+    # ضع هنا الكود أو الدالة التي تستدعي الفحص لديك (مثلاً تشغيل الكلاس الرئيسي للفحص)
+    print("Running Aegis Code Security Scanner...")
+    # مثال: فحص المجلد الحالي
+    # scanner = AegisScanner()
+    # scanner.run()
+
+if __name__ == "__main__":
     main()
+    
 
