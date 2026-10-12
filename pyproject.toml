@@ -1,1 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aegis-code"
+version = "1.0.0"
+description = "A lightweight, modular, local-first Python SAST & security scanner."
+readme = "README.md"
+authors = [
+    { name = "Ahmed Mohamed" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "rich>=10.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/am9024048-hue/Aegis-code"
 
