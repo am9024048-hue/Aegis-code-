@@ -18,15 +18,21 @@ A lightweight, local Static Application Security Testing (SAST) tool built with 
   - Flags dangerous function usage (`eval`, `exec`).
   - Warns against insecure module imports (`pickle`, `telnetlib`).
  
-  - ## 💻 Usage
+    ---
+
+## 💻 Usage
 
 Run the scanner directly from your terminal by passing the path of the Python file you want to check:
 
 python aegis.py path/to/your_file.py
 
+---
+
 ## 🤝 Contributing
 
 Contributions and rule additions are welcome! Feel free to open an issue or submit a pull request.
+
+---
 
 ## ⭐ Support
 
