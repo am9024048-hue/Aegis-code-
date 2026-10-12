@@ -1,39 +1,58 @@
-# 🛡️ Aegis Code
-
-> **A Lightweight, Local Static Application Security Testing (SAST) Tool for Python**
-
-[![python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![SAST](https://img.shields.io/badge/SAST-Python-red.svg)]()
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
-
-A lightweight, local Static Application Security Testing (SAST) tool built with Python. It uses Python's `ast` module and regex patterns to perform local security checks on Python source files.
-
-## 🚀 Features
-
-- **100% Local:** Runs entirely on your machine; no code is sent to external servers.
-- **AST Parsing:** Uses Python's native `ast` module to analyze code structure.
-- **Security Checks:** 
-  - Detects potential hardcoded secrets (API keys, passwords).
-  - Flags dangerous function usage (`eval`, `exec`).
-  - Warns against insecure module imports (`pickle`, `telnetlib`).
- 
-    ---
-
-## 💻 Usage
-
-Run the scanner directly from your terminal by passing the path of the Python file you want to check:
-
-python aegis.py path/to/your_file.py
+<div align="center">
+  <h1>🛡️ Aegis Code</h1>
+  <p><b>A Lightweight, Modular, Local-First Python SAST & Security Scanner</b></p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python Version">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+    <img src="https://img.shields.io/badge/SAST-Python-red.svg" alt="SAST">
+  </p>
+</div>
 
 ---
 
-## 🤝 Contributing
-
-Contributions and rule additions are welcome! Feel free to open an issue or submit a pull request.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 Core Features</h3>
+      <ul>
+        <li><b>100% Local Privacy:</b> Runs entirely on your machine; no code leaves your device.</li>
+        <li><b>Clean Architecture:</b> Decoupled engine and rules for high modularity.</li>
+        <li><b>Rich Terminal UI:</b> Beautiful, color-coded table reports using <code>rich</code>.</li>
+        <li><b>AST Parsing:</b> Native Python AST inspection for dynamic safety.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔍 Security Checks</h3>
+      <ul>
+        <li><b>Hardcoded Secrets:</b> Detects API keys, tokens, and exposed credentials via Regex.</li>
+        <li><b>Dangerous Functions:</b> Flags dynamic execution calls like <code>eval()</code> and <code>exec()</code>.</li>
+        <li><b>Insecure Imports:</b> Warns against unsafe standard modules like <code>pickle</code> or <code>telnetlib</code>.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## ⭐ Support
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 Installation</h3>
+      <p>Install the required terminal UI library:</p>
+      <pre><code>pip install rich</code></pre>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ Usage</h3>
+      <p>Run the scanner on any Python file:</p>
+      <pre><code>python aegis.py path/to/your_file.py</code></pre>
+    </td>
+  </tr>
+</table>
 
-If you find this project useful, consider giving it a Star!
+---
+
+### 🤝 Contributing & Support
+
+* **Contributions:** Rule additions and improvements are welcome! Feel free to submit a PR or open an issue.
+* **Support:** If you find this project useful, consider giving it a ⭐ Star on GitHub!
